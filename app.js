@@ -1,3 +1,5 @@
+//node v0.12.5
+
 var _ = require('underscore');
 process.stdin.setEncoding('utf8'); 
 
@@ -36,7 +38,7 @@ process.stdin.on('data', function(data){ //reading data from input
 		if (pairs[i] === prevPair) {
 			pairCount ++;
 			if (pairCount === count) { //write to string if N instances of pair
-				qualifyingPairs += pairs[i] + "\n"
+				qualifyingPairs += pairs[i] + "\n";
 			}
 		} else {
 			pairCount = 1;
