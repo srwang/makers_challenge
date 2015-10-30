@@ -50,7 +50,7 @@ process.stdin.on('data', function(data){ //reading data from input
 })
 
 //Extra
-//time complexity is 0(n)^3, deepest is 3 nested loops (at line 20)
+//time complexity is O(n)^3, deepest is 3 nested loops (at line 15)
 //not sure, this is the solution I came up with
 
 
